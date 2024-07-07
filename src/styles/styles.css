@@ -145,7 +145,7 @@ header a:hover::after{
         height: 100vh;
         background-image: url(../../images/background-mobile.png);
         background-size: cover;
-        background-position: center;
+        background-position: center 10px;
     }
     .image-container {
         flex-direction: row;
@@ -202,7 +202,7 @@ header a:hover::after{
         height: 100vh;
         background-image: url(../../images/background-tablet.png);
         background-size: cover;
-        background-position: 0px 10px;
+        background-position: center 10px;
     }
     .image-container {
         flex-direction: row;
