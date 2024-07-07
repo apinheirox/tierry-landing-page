@@ -71,7 +71,7 @@ header a:hover::after{
 /* Menu toggle button */
 .menu-toggle {
     display: none;
-    font-size: 30px;
+    font-size: 40px;
     cursor: pointer;
 }
 
