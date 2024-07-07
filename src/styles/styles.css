@@ -243,6 +243,12 @@ header a:hover::after{
 #agenda .info a {
     color: white;
 }
+
+video {
+    margin: 100px auto;
+    width: 100%;
+    height: auto;
+}
 @media (max-width: 575.98px) {
     .background-image {
         height: 100vh;
@@ -321,6 +327,9 @@ header a:hover::after{
     #agenda .info h3 {
         font-size: 18px;
     }
+    video{
+        margin: 0 auto;
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
     .background-image {
@@ -389,6 +398,9 @@ header a:hover::after{
     }
     #agenda .info h3 {
         font-size: 18px;
+    }
+    video{
+        margin: 0 auto;
     }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -466,6 +478,9 @@ header a:hover::after{
 
     #agenda .info h3 {
         font-size: 18px;
+    }
+    video{
+        margin: 0 auto;
     }
 
 }
