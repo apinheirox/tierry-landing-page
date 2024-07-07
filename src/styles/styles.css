@@ -194,8 +194,8 @@ header a:hover::after{
 }
 
 #agenda .card {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color: white;
     border-radius: 10px;
     display: flex;
@@ -212,11 +212,11 @@ header a:hover::after{
 }
 
 #agenda .card p:nth-child(1) {
-    font-size: 45px;
+    font-size: 65px;
 }
 
 #agenda .card p:last-child {
-    font-size: 17px;
+    font-size: 20px;
     color: #585858;
 }
 
