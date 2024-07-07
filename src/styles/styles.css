@@ -395,6 +395,12 @@ iframe {
     video{
         margin: 0 auto;
     }
+    #musicas{
+        background-image: url(../../images/background-mobile-plataformas.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
     #musicas .container{
         flex-direction: column;
         width: 100%;
@@ -489,7 +495,12 @@ iframe {
     video{
         margin: 0 auto;
     }
-
+    #musicas{
+        background-image: url(../../images/background-mobile-plataformas.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
     #musicas .container{
         flex-direction: column;
         width: 100%;
@@ -591,6 +602,12 @@ iframe {
     }
     video{
         margin: 0 auto;
+    }
+    #musicas{
+        background-image: url(../../images/background-mobile-plataformas.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
     #musicas .container{
         flex-direction: column;
