@@ -304,6 +304,7 @@ header a:hover::after{
     }
     #agenda .card{
         width: 150px;
+        height: 120px;
     }
     #agenda .info p {
         font-size: 10px;
@@ -366,6 +367,7 @@ header a:hover::after{
     }
     #agenda .card{
         width: 150px;
+        height: 120px;
     }
     #agenda .info p {
         font-size: 10px;
@@ -436,6 +438,7 @@ header a:hover::after{
     }
     #agenda .card{
         width: 150px;
+        height: 120px;
     }
     #agenda .info p {
         font-size: 10px;
