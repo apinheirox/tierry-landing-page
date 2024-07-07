@@ -309,7 +309,13 @@ header a:hover::after{
     #agenda .info p {
         font-size: 10px;
     }
-
+    #agenda .card p:nth-child(1) {
+        font-size: 45px;
+    }
+    
+    #agenda .card p:last-child {
+        font-size: 17px;
+    }
     #agenda .info h3 {
         font-size: 18px;
     }
@@ -372,7 +378,13 @@ header a:hover::after{
     #agenda .info p {
         font-size: 10px;
     }
-
+    #agenda .card p:nth-child(1) {
+        font-size: 45px;
+    }
+    
+    #agenda .card p:last-child {
+        font-size: 17px;
+    }
     #agenda .info h3 {
         font-size: 18px;
     }
@@ -430,7 +442,13 @@ header a:hover::after{
         font-size: 50px;
         text-align: left;
     }
-
+    #agenda .card p:nth-child(1) {
+        font-size: 45px;
+    }
+    
+    #agenda .card p:last-child {
+        font-size: 17px;
+    }
     #agenda .back-card {
         background: none;
         margin: 0 auto;
