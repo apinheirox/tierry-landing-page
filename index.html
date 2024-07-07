@@ -9,7 +9,9 @@
 <body>
     <header>
         <div class="container">
-            <nav>
+            <img src="./images/logo.png" alt="" class="logo">
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            <nav class="main-nav">
                 <li><a href="#">AGENDA</a></li>
                 <li><a href="#">MÚSICAS</a></li>
                 <li><a href="#">BIOGRAFIA</a></li>
@@ -22,6 +24,13 @@
             </div>
         </div>
     </header>
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">&times;</a>
+        <li><a href="#">AGENDA</a></li>
+        <li><a href="#">MÚSICAS</a></li>
+        <li><a href="#">BIOGRAFIA</a></li>
+        <li><a href="#">CONTATO</a></li>
+    </div>
     <div class="background-image">
         <div class="image-container">
             <img src="./images/plataformas-digitais/apple-music.png" alt="Apple Music">
@@ -31,6 +40,7 @@
             <img src="./images/plataformas-digitais/tidal.png" alt="Tidal">
             <img src="./images/plataformas-digitais/napster.png" alt="Napster">
         </div>
-    </div>
+    </div>]
+    <script src="./src/main.js"></script>
 </body>
 </html>
