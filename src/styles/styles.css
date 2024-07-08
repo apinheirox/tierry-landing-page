@@ -342,7 +342,7 @@ video {
 #msc-yout h3{
     color: white;
     font-size: 40px;
-    text-align: left;
+    text-align: center;
     margin: 20px auto;
 }
 @media (max-width: 575.98px) {
@@ -462,6 +462,9 @@ video {
         background-image: url(../../images/background-mobile-youtube.png);
         margin: 100px auto;
     }
+    #msc-yout h3{
+        font-size: 30px;
+    }
 
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -574,6 +577,9 @@ video {
     #msc-yout{
         background-image: url(../../images/background-mobile-youtube.png);
         margin: 100px auto;
+    }
+    #msc-yout h3{
+        font-size: 30px;
     }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -689,6 +695,9 @@ video {
     #msc-yout{
         background-image: url(../../images/background-mobile-youtube.png);
         margin: 100px auto;
+    }
+    #msc-yout h3{
+        font-size: 30px;
     }
 
 }
