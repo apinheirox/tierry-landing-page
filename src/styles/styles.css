@@ -328,6 +328,7 @@ video {
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
+    margin: 0 auto;
 }
 #msc-yout .container{
     width: 100%;
