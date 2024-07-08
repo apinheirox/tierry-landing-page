@@ -338,10 +338,10 @@ iframe {
         gap: 10px;
         width: 300px;
     }
-    .image-container a {
-        flex: 1 1 calc(33.333% - 20px); /* 3 imagens por linha, considerando o gap */
+    .image-container img {
         margin-bottom: 20px;
-        width: 5%;
+        width: 100%;
+        margin: 0 auto;
     }
     .menu-toggle {
         display: block;
@@ -443,6 +443,11 @@ iframe {
     }
     .image-container {
         margin: 0px auto;
+    }
+    .image-container img {
+        margin-bottom: 20px;
+        width: 100%;
+        margin: 0 auto;
     }
     .menu-toggle {
         display: block;
@@ -548,10 +553,10 @@ iframe {
         gap: 10px;
         width: 400px;
     }
-    .image-container a {
-        flex: 1 1 calc(33.333% - 20px); /* 3 imagens por linha, considerando o gap */
+    .image-container img {
         margin-bottom: 20px;
-        width: 20%;
+        width: 100%;
+        margin: 0 auto;
     }
     header .container{
         width: 90%;
