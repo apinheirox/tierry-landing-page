@@ -565,7 +565,7 @@ video {
         margin: 0 auto;
     }
     #contato .redes-socias img{
-        width: 70%;
+        width: 60%;
         gap: 5px;
     }
     .footer-content {
@@ -701,7 +701,19 @@ video {
         background-image: url(../../images/background-mobile-redes.png);
     }
     #contato .container{
+        width: 250px;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #contato h1 {
+        font-size: 50px;
+        text-align: left;
+        margin: 0 auto;
+    }
+    #contato .redes-socias img{
+        width: 60%;
+        gap: 5px;
     }
     .footer-content {
         flex-direction: column;
@@ -838,7 +850,19 @@ video {
         background-image: url(../../images/background-mobile-redes.png);
     }
     #contato .container{
+        width: 250px;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #contato h1 {
+        font-size: 50px;
+        text-align: left;
+        margin: 0 auto;
+    }
+    #contato .redes-socias img{
+        width: 60%;
+        gap: 5px;
     }
     .footer-content {
         flex-direction: column;
