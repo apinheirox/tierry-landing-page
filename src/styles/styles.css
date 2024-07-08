@@ -326,7 +326,7 @@ video {
 #msc-yout{
     background-image: url(../../images/background-desktop-youtube.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: auto;
     height: 100vh;
     margin: 0 auto;
 }
@@ -455,6 +455,14 @@ video {
     #musicas .container-dir .plataformas img{
         width: 100%;
     }
+    #msc-yout iframe{
+        width: 90%;
+    }
+    #msc-yout{
+        background-image: url(../../images/background-mobile-youtube.png);
+        margin: 100px auto;
+    }
+
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
     .background-image {
@@ -559,6 +567,13 @@ video {
     }
     #musicas .container-dir .plataformas img{
         width: 100%;
+    }
+    #msc-yout iframe{
+        width: 90%;
+    }
+    #msc-yout{
+        background-image: url(../../images/background-mobile-youtube.png);
+        margin: 100px auto;
     }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -667,6 +682,13 @@ video {
     }
     #musicas .container-dir .plataformas img{
         width: 100%;
+    }
+    #msc-yout iframe{
+        width: 90%;
+    }
+    #msc-yout{
+        background-image: url(../../images/background-mobile-youtube.png);
+        margin: 100px auto;
     }
 
 }
