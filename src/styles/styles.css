@@ -135,7 +135,7 @@ header .main-nav a:hover::after{
     justify-content: center;
 }
 
-.image-container img {
+.image-container a {
     max-width: 100%;
     height: auto;
     cursor: pointer;
@@ -338,7 +338,7 @@ iframe {
         gap: 10px;
         width: 300px;
     }
-    .image-container img {
+    .image-container a {
         flex: 1 1 calc(33.333% - 20px); /* 3 imagens por linha, considerando o gap */
         margin-bottom: 20px;
         width: 5%;
@@ -548,7 +548,7 @@ iframe {
         gap: 10px;
         width: 400px;
     }
-    .image-container img {
+    .image-container a {
         flex: 1 1 calc(33.333% - 20px); /* 3 imagens por linha, considerando o gap */
         margin-bottom: 20px;
         width: 20%;
