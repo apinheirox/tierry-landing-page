@@ -37,7 +37,7 @@ header a {
     padding: 0px 10px 10px 0px;
     position: relative;
 }
-header a::after{
+header .main-nav a::after{
     content: " ";
     width: 0;
     height: 3px;
@@ -48,7 +48,7 @@ header a::after{
     transition: 0.5s ease-in-out;
 }
 
-header a:hover::after{
+header .main-nav a:hover::after{
     width: 100%;
 }
 .logo{
@@ -59,11 +59,11 @@ header a:hover::after{
     gap: 20px;
     cursor: pointer;
 }
-.icon-links img:hover{
+.icon-links a:hover{
     transform: translateY(-4px);
     
 }
-.icon-links img{
+.icon-links a{
     width: 100%;
     height: 100%;
     transition: 0.4s ease-in-out;
@@ -306,8 +306,14 @@ video {
     gap: 15px;
     margin: 15px auto;
     align-items: center;
+    
 }
-
+#musicas .plataformas a{
+    transition: 0.4s ease-in-out;
+}
+#musicas .plataformas a:hover{
+    transform: translateY(-3px);
+}
 iframe {
     width: 100%;
     max-width: 100%;
