@@ -345,6 +345,55 @@ video {
     text-align: center;
     margin: 20px auto;
 }
+#contato{
+    background-image: url(../../images/background-desktop-redes.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+#contato .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.contato-h1 {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+#contato h3{
+    background: linear-gradient(to right, #3CA1FF, #246199);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    text-align: center;
+    text-align: left;
+}
+#contato h1 {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    text-align: left;
+}
+#contato .container-dir{
+    margin: 0 auto;
+}
+#contato .redes-socias{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+    width: 100%;
+}
 @media (max-width: 575.98px) {
     .background-image {
         height: 100vh;
@@ -465,6 +514,24 @@ video {
     #msc-yout h3{
         font-size: 30px;
     }
+    #contato{
+        background-image: url(../../images/background-mobile-redes.png);
+    }
+    #contato .container{
+        width: 250px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #contato h1 {
+        font-size: 50px;
+        text-align: left;
+        margin: 0 auto;
+    }
+    #contato .redes-socias img{
+        width: 70%;
+        gap: 5px;
+    }
 
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -580,6 +647,12 @@ video {
     }
     #msc-yout h3{
         font-size: 30px;
+    }
+    #contato{
+        background-image: url(../../images/background-mobile-redes.png);
+    }
+    #contato .container{
+        flex-direction: column;
     }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -698,6 +771,12 @@ video {
     }
     #msc-yout h3{
         font-size: 30px;
+    }
+    #contato{
+        background-image: url(../../images/background-mobile-redes.png);
+    }
+    #contato .container{
+        flex-direction: column;
     }
 
 }
