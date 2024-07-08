@@ -247,10 +247,10 @@ header .main-nav a:hover::after{
     color: white;
 }
 
-video {
+#video iframe{
     margin: 100px auto;
     width: 100%;
-    height: auto;
+    height: 70vh;
 }
 
 #musicas {
@@ -508,7 +508,7 @@ video {
     #agenda .info h3 {
         font-size: 18px;
     }
-    video{
+    #video iframe{
         margin: 0 auto;
     }
     #musicas{
@@ -656,7 +656,7 @@ video {
     #agenda .info h3 {
         font-size: 18px;
     }
-    video{
+    #video iframe{
         margin: 0 auto;
     }
     #musicas{
@@ -805,7 +805,7 @@ video {
     #agenda .info h3 {
         font-size: 18px;
     }
-    video{
+    #video iframe{
         margin: 0 auto;
     }
     #musicas{
