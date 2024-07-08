@@ -142,7 +142,7 @@ header .main-nav a:hover::after{
     transition: 0.4s ease-in-out;
 }
 
-.image-container img:hover {
+.image-container a:hover {
     transform: translateY(-4px);
 }
 
