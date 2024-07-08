@@ -335,12 +335,12 @@ iframe {
         flex-direction: row;
         flex-wrap: wrap;
         margin: 0px auto;
-        gap: 10px;
-        width: 300px;
+        gap: 12px;
+        width: 400px;
     }
     .image-container img {
         margin-bottom: 20px;
-        width: 100%;
+        width: 92%;
         margin: 0 auto;
     }
     .menu-toggle {
