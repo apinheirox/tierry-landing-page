@@ -116,11 +116,12 @@ header .main-nav a:hover::after{
 }
 /* Home */
 .background-image {
-    height: 960px; 
+    height: 1000px; 
     width: 100%;
     background-image: url(../../images/background-desktop.png);
     background-size: cover; 
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -436,7 +437,7 @@ header .main-nav a:hover::after{
         width: 100%;
         background-image: url(../../images/background-mobile.png);
         background-size: cover;
-        background-position: center 10px;
+        background-position: center;
     }
     .image-container {
         flex-direction: row;
@@ -588,7 +589,7 @@ header .main-nav a:hover::after{
         height: 100vh;
         background-image: url(../../images/background-mobile.png);
         background-size: cover;
-        background-position: center 10px;
+        background-position: center;
     }
     .image-container {
         margin: -30px auto;
@@ -736,7 +737,7 @@ header .main-nav a:hover::after{
         height: 100vh;
         background-image: url(../../images/background-tablet.png);
         background-size: cover;
-        background-position: center 10px;
+        background-position: center;
     }
     .image-container {
         margin: -30px auto;
