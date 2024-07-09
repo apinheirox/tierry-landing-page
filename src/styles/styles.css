@@ -328,12 +328,12 @@ header .main-nav a:hover::after{
     background-image: url(../../images/background-desktop-youtube.png);
     background-repeat: no-repeat;
     background-position: auto;
-    height: 100vh;
+    height: 900px;
     margin: 0 auto;
 }
 #msc-yout .container{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -353,6 +353,7 @@ header .main-nav a:hover::after{
     height: 100vh;
     display: flex;
     justify-content: center;
+    margin: 50px auto;
 }
 #contato .container{
     display: flex;
@@ -401,6 +402,9 @@ header .main-nav a:hover::after{
 #contato .redes-socias a:hover{
     transform: translateY(-3px);
 }
+footer{
+    margin: 0 auto;
+}
 .footer-content {
     display: flex;
     justify-content: space-between;
@@ -430,6 +434,32 @@ header .main-nav a:hover::after{
 
 .footer-content .right-image {
     order: 3;
+}
+#nmr-contato{
+    margin-bottom: 10px;
+}
+#nmr-contato .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1200px;
+}
+#nmr-contato .shows, .Publi, .Imprensa, #nmr-contato a{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+#nmr-contato h2{
+    background: linear-gradient(to right, #3CA1FF, #246199);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    margin-bottom: 5px;
 }
 @media (max-width: 575.98px) {
     .background-image {
@@ -590,6 +620,15 @@ header .main-nav a:hover::after{
     .footer-content p {
         text-align: center;
     }
+    #nmr-contato{
+        margin: 100px auto;
+    }
+    #nmr-contato .container{
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        width: 100%;
+        gap: 30px;
+    }
 
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -747,6 +786,15 @@ header .main-nav a:hover::after{
     .footer-content p {
         text-align: center;
     }
+    #nmr-contato{
+        margin: 100px auto;
+    }
+    #nmr-contato .container{
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        width: 100%;
+        gap: 30px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
     .background-image {
@@ -901,6 +949,15 @@ header .main-nav a:hover::after{
 
     .footer-content p {
         text-align: center;
+    }
+    #nmr-contato{
+        margin: 100px auto;
+    }
+    #nmr-contato .container{
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        width: 100%;
+        gap: 30px;
     }
 
 }
