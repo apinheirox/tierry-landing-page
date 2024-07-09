@@ -551,13 +551,16 @@ header .main-nav a:hover::after{
     }
     #msc-yout{
         background-image: url(../../images/background-mobile-youtube.png);
-        margin: 100px auto;
+        margin: 50px auto;
+        height: 1000px;
     }
     #msc-yout h3{
         font-size: 30px;
     }
     #contato{
+        height: 1100px;
         background-image: url(../../images/background-mobile-redes.png);
+        margin: -80px auto;
     }
     #contato .container{
         width: 250px;
@@ -705,13 +708,16 @@ header .main-nav a:hover::after{
     }
     #msc-yout{
         background-image: url(../../images/background-mobile-youtube.png);
-        margin: 100px auto;
+        margin: 50px auto;
+        height: 1000px;
     }
     #msc-yout h3{
         font-size: 30px;
     }
     #contato{
+        height: 1100px;
         background-image: url(../../images/background-mobile-redes.png);
+        margin: -80px auto;
     }
     #contato .container{
         width: 250px;
@@ -857,13 +863,16 @@ header .main-nav a:hover::after{
     }
     #msc-yout{
         background-image: url(../../images/background-mobile-youtube.png);
-        margin: 100px auto;
+        margin: 50px auto;
+        height: 1000px;
     }
     #msc-yout h3{
         font-size: 30px;
     }
     #contato{
+        height: 1100px;
         background-image: url(../../images/background-mobile-redes.png);
+        margin: -80px auto;
     }
     #contato .container{
         width: 250px;
