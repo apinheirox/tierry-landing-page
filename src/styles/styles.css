@@ -509,7 +509,12 @@ header .main-nav a:hover::after{
     #agenda .info h3 {
         font-size: 18px;
     }
+    #video{
+        margin: 0 auto;
+        width: 90%;
+    }
     #video iframe{
+        width: 100%;
         margin: 0 auto;
     }
     #musicas{
@@ -659,7 +664,12 @@ header .main-nav a:hover::after{
     #agenda .info h3 {
         font-size: 18px;
     }
+    #video{
+        margin: 0 auto;
+        width: 90%;
+    }
     #video iframe{
+        width: 100%;
         margin: 0 auto;
     }
     #musicas{
@@ -806,7 +816,12 @@ header .main-nav a:hover::after{
     #agenda .info h3 {
         font-size: 18px;
     }
+    #video{
+        margin: 0 auto;
+        width: 90%;
+    }
     #video iframe{
+        width: 100%;
         margin: 0 auto;
     }
     #musicas{
