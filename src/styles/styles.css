@@ -452,6 +452,7 @@ footer{
     color: white;
     margin: 0 auto;
     text-align: center;
+    gap: 5px;
 }
 #nmr-contato h2{
     background: linear-gradient(to right, #3CA1FF, #246199);
@@ -459,7 +460,7 @@ footer{
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 #central{
     background-image: url(../../images/background-desktop-central.png);
@@ -643,6 +644,7 @@ footer{
         background-position: center;
         background-size: cover;
         height: 1100px;
+        margin: -50px auto;
     }
     #musicas .container{
         flex-direction: column;
@@ -830,6 +832,7 @@ footer{
         background-position: center;
         background-size: cover;
         height: 1100px;
+        margin: -50px auto;
     }
     #musicas .container{
         flex-direction: column;
@@ -1014,6 +1017,7 @@ footer{
         background-position: center;
         background-size: cover;
         height: 1100px;
+        margin: -50px auto;
     }
     #musicas .container{
         flex-direction: column;
