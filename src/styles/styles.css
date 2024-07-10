@@ -999,8 +999,8 @@ footer{
     }
     #msc-yout{
         background-image: url(../../images/background-mobile-youtube.png);
-        margin: 50px auto;
-        height: 1000px;
+        margin: -100px auto;
+        height: 1100px;
     }
     #msc-yout h3{
         font-size: 30px;
