@@ -461,6 +461,53 @@ footer{
     color: transparent;
     margin-bottom: 5px;
 }
+#central{
+    background-image: url(../../images/background-desktop-central.png);
+    background-repeat: no-repeat;
+    background-position: auto -10px;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+}
+#central .container{
+    width: 1000px;
+    align-items: left;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+#central .container h1{
+    color: white;
+    font-size: 80px;
+    text-align: left;
+    width: 200px;
+}
+#central .container p{
+    background: linear-gradient(to right, #3CA1FF, #246199);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    margin-bottom: 15px;
+    width: 300px;
+}
+#central .container button{
+    width: 200px;
+    height: 50px;
+    font-family: 'Aron';
+    background-color: #11111100;
+    border: 2px solid #246199;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+#central .container button:hover{
+    background-color: #246199;
+    color: white;
+}
 @media (max-width: 575.98px) {
     .background-image {
         height: 100vh;
@@ -629,6 +676,25 @@ footer{
         width: 100%;
         gap: 30px;
     }
+    #central{
+        background-image: url(../../images/background-mobile-central.png);
+        margin: -150px auto;
+        height: 1000px;
+    }
+    #central .container{
+        margin: 0 auto;
+        width: 250px;
+    }
+    #central .container h1 {
+        font-size: 50px;
+        text-align: left;
+    }
+    #central .container p{
+        font-size: 13px;
+    }
+    #central .container button{
+        width: 150px;
+    }
 
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -795,6 +861,25 @@ footer{
         width: 100%;
         gap: 30px;
     }
+    #central{
+        background-image: url(../../images/background-mobile-central.png);
+        margin: -150px auto;
+        height: 1000px;
+    }
+    #central .container{
+        margin: 0 auto;
+        width: 250px;
+    }
+    #central .container h1 {
+        font-size: 50px;
+        text-align: left;
+    }
+    #central .container p{
+        font-size: 13px;
+    }
+    #central .container button{
+        width: 150px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
     .background-image {
@@ -959,6 +1044,26 @@ footer{
         width: 100%;
         gap: 30px;
     }
+    #central{
+        background-image: url(../../images/background-mobile-central.png);
+        margin: -150px auto;
+        height: 1000px;
+    }
+    #central .container{
+        margin: 0 auto;
+        width: 250px;
+    }
+    #central .container h1 {
+        font-size: 50px;
+        text-align: left;
+    }
+    #central .container p{
+        font-size: 13px;
+    }
+    #central .container button{
+        width: 150px;
+    }
+    
 
 }
 @media (min-width: 992) and (max-width: 1199.98px) {
