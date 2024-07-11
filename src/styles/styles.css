@@ -11,7 +11,7 @@ html {
     scroll-behavior: smooth;
 }
 body{
-    background-color: black;
+    background-color: #121516;
     font-family: 'Aron', sans-serif;
     overflow-x: hidden;
 }
@@ -172,18 +172,14 @@ header .main-nav a:hover::after{
 }
 
 #agenda h1 {
-    background: linear-gradient(to right, #3CA1FF, #246199);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
+    color: white;
     font-size: 80px;
     text-align: center;
     text-align: left;
 }
 
 #agenda .back-card {
-    background: linear-gradient(to right, #246199, #3CA1FF);
+    background-color: #CED0D0;
     width: 100%;
     height: 400px;
     max-width: 650px;
@@ -208,6 +204,7 @@ header .main-nav a:hover::after{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 #agenda .card-agenda {
@@ -234,18 +231,18 @@ header .main-nav a:hover::after{
 }
 
 #agenda .info h3 {
-    color: white;
+    color: #121516;
     font-size: 26px;
 }
 
 #agenda .info p {
-    color: #eeeeee;
+    color: #121516;
     font-size: 14px;
     max-width: 200px;
 }
 
 #agenda .info a {
-    color: white;
+    color: #121516;
 }
 
 #video iframe{
@@ -266,14 +263,11 @@ header .main-nav a:hover::after{
     flex-direction: column;
     text-align: center;
     padding: 20px;
+    margin: 0 auto;
 }
 
 #musicas h1 {
-    background: linear-gradient(to right, #3CA1FF, #246199);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
+    color: white;
     font-size: 80px;
     text-align: left; /* Centraliza o título */
 }
@@ -353,7 +347,7 @@ header .main-nav a:hover::after{
     height: 100vh;
     display: flex;
     justify-content: center;
-    margin: 50px auto;
+    margin: -20px auto;
 }
 #contato .container{
     display: flex;
@@ -371,11 +365,7 @@ header .main-nav a:hover::after{
     text-align: center;
 }
 #contato h3{
-    background: linear-gradient(to right, #3CA1FF, #246199);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
+    color: #CED0D0;
     text-align: center;
     text-align: left;
 }
@@ -443,7 +433,7 @@ footer{
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    margin: 50px auto;
     width: 1200px;
 }
 #nmr-contato .shows, .Publi, .Imprensa, #nmr-contato a{
@@ -455,20 +445,17 @@ footer{
     gap: 5px;
 }
 #nmr-contato h2{
-    background: linear-gradient(to right, #3CA1FF, #246199);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
+    color: #CED0D0;
     margin-bottom: 2px;
 }
 #central{
     background-image: url(../../images/background-desktop-central.png);
     background-repeat: no-repeat;
     background-position: auto -10px;
-    height: 100vh;
+    height: 900px;
     justify-content: center;
     display: flex;
+    margin: -150px auto;
 }
 #central .container{
     width: 1000px;
@@ -476,6 +463,7 @@ footer{
     justify-content: center;
     display: flex;
     margin: 0 auto;
+    margin-bottom: 100px;
     flex-direction: column;
 }
 #central .container h1{
@@ -485,11 +473,7 @@ footer{
     width: 200px;
 }
 #central .container p{
-    background: linear-gradient(to right, #3CA1FF, #246199);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
+    color: #CED0D0;
     margin-bottom: 15px;
     width: 300px;
 }
@@ -498,7 +482,7 @@ footer{
     height: 50px;
     font-family: 'Aron';
     background-color: #11111100;
-    border: 2px solid #246199;
+    border: 2px solid #CED0D0;
     color: white;
     cursor: pointer;
     align-items: center;
@@ -506,8 +490,8 @@ footer{
     transition: 0.5s ease-in-out;
 }
 #central .container button:hover{
-    background-color: #246199;
-    color: white;
+    background-color: #CED0D0;
+    color: black;
 }
 .loader {
     display: flex;
@@ -597,6 +581,7 @@ footer{
         margin: 0 auto;
         width: 100%;
         display: flex;
+        
     }
     #agenda .agenda-h1 {
         font-size: 40px;
@@ -617,8 +602,12 @@ footer{
         width: 150px;
         height: 120px;
     }
+    #agenda .info a{
+        color: white;
+    }
     #agenda .info p {
         font-size: 10px;
+        color: white;
     }
     #agenda .card p:nth-child(1) {
         font-size: 45px;
@@ -629,6 +618,7 @@ footer{
     }
     #agenda .info h3 {
         font-size: 18px;
+        color: white;
     }
     #video{
         margin: 0 auto;
@@ -724,7 +714,7 @@ footer{
     }
     #central{
         background-image: url(../../images/background-mobile-central.png);
-        margin: -150px auto;
+        margin: -50px auto;
         height: 1000px;
     }
     #central .container{
@@ -805,8 +795,12 @@ footer{
         width: 150px;
         height: 120px;
     }
+    #agenda .info a{
+        color: white;
+    }
     #agenda .info p {
         font-size: 10px;
+        color: white;
     }
     #agenda .card p:nth-child(1) {
         font-size: 45px;
@@ -817,6 +811,7 @@ footer{
     }
     #agenda .info h3 {
         font-size: 18px;
+        color: white;
     }
     #video{
         margin: 0 auto;
@@ -911,7 +906,7 @@ footer{
     }
     #central{
         background-image: url(../../images/background-mobile-central.png);
-        margin: -150px auto;
+        margin: -50px auto;
         height: 1000px;
     }
     #central .container{
@@ -996,12 +991,17 @@ footer{
         width: 150px;
         height: 120px;
     }
+    #agenda .info a{
+        color: white;
+    }
     #agenda .info p {
         font-size: 10px;
+        color: white;
     }
 
     #agenda .info h3 {
         font-size: 18px;
+        color: white;
     }
     #video{
         margin: 0 auto;
@@ -1096,7 +1096,7 @@ footer{
     }
     #central{
         background-image: url(../../images/background-mobile-central.png);
-        margin: -150px auto;
+        margin: -50px auto;
         height: 1000px;
     }
     #central .container{
