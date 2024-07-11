@@ -263,7 +263,7 @@ header .main-nav a:hover::after{
     flex-direction: column;
     text-align: center;
     padding: 20px;
-    margin: 0 auto;
+    margin: -110px auto;
 }
 
 #musicas h1 {
@@ -323,7 +323,7 @@ header .main-nav a:hover::after{
     background-repeat: no-repeat;
     background-position: auto;
     height: 900px;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 #msc-yout .container{
     width: 100%;
@@ -455,7 +455,7 @@ footer{
     height: 900px;
     justify-content: center;
     display: flex;
-    margin: -150px auto;
+    margin: -250px auto;
 }
 #central .container{
     width: 1000px;
