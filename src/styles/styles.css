@@ -44,7 +44,7 @@ header .main-nav a::after{
     content: " ";
     width: 0;
     height: 3px;
-    background-color: #3CA1FF;
+    background-color: #CED0D0;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -104,7 +104,7 @@ header .main-nav a:hover::after{
 }
 
 .sidebar a:hover {
-    color: #3CA1FF;
+    color: #CED0D0;
 }
 
 .sidebar .closebtn {
