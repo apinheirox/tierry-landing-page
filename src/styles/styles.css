@@ -146,6 +146,9 @@ header .main-nav a:hover::after{
 .image-container a:hover {
     transform: translateY(-4px);
 }
+#biografia{
+    margin: 100px auto;
+}
 #biografia .container{
     max-width: 1200px;
     width: 100%;
@@ -282,20 +285,12 @@ header .main-nav a:hover::after{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 100px auto;
+    margin: 50px auto;
     text-align: center;
 }
-#numeros .container-esq {
-    width: 100%;
-    max-width: 350px;
-    margin: 0 auto ;
-    text-align: left;
-}
-#numeros .container-esq img{
-    width: 400px;
-}
 #numeros .container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -303,11 +298,11 @@ header .main-nav a:hover::after{
     max-width: 1200px;
     margin: 0 auto;
 }
-#numeros .container-dir h3{
-    font-size: 35px;
+#numeros .container h3{
+    font-size: 23px;
     color: white;
     align-items: center;
-    width: 500px;
+    margin-top: 5px;
 }
 #numeros .container-dir span{
     font-size: 27px;
@@ -334,7 +329,7 @@ header .main-nav a:hover::after{
     flex-direction: column;
     text-align: center;
     padding: 20px;
-    margin: -50px auto;
+    margin: 0px auto;
 }
 
 #musicas h1 {
@@ -394,7 +389,7 @@ header .main-nav a:hover::after{
     background-repeat: no-repeat;
     background-position: auto;
     height: 900px;
-    margin: 50px auto;
+    margin: 0 auto;
 }
 #msc-yout .container{
     width: 100%;
@@ -476,8 +471,9 @@ footer{
 }
 
 .footer-content img {
-    max-width: 100px;
+    max-width: 90px;
     height: auto;
+    margin: 0 auto;
 }
 
 .footer-content .center-image {
@@ -526,7 +522,7 @@ footer{
     height: 1000px;
     justify-content: center;
     display: flex;
-    margin: -200px auto;
+    margin: -150px auto;
 }
 #central .container{
     width: 1000px;
@@ -653,6 +649,16 @@ footer{
     #biografia .container p{
         width: 300px;
         font-size: 13px;
+    }
+    #numeros{
+        margin: 100px auto;
+    }
+    #numeros .container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    #numeros .container h3{
+        font-size: 20px;
     }
     #agenda .container {
         width: 500px;
@@ -851,6 +857,16 @@ footer{
     .logo{
         display: flex;
         width: 90px;
+    }
+    #numeros{
+        margin: 100px auto;
+    }
+    #numeros .container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    #numeros .container h3{
+        font-size: 20px;
     }
     #biografia .container{
         max-width: 500px;
@@ -1066,6 +1082,16 @@ footer{
     #biografia .container p{
         width: 400px;
         font-size: 13px;
+    }
+    #numeros{
+        margin: 100px auto;
+    }
+    #numeros .container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    #numeros .container h3{
+        font-size: 20px;
     }
     .menu-toggle {
         display: block;
