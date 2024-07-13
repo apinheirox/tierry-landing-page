@@ -592,7 +592,9 @@ footer{
 .bar:nth-child(3) {
     animation-delay: .5s;
 }
-
+.vdw{
+    display: none;
+}
 @keyframes scale-up4 {
     20% {
         background-color: #246199;
@@ -756,6 +758,9 @@ footer{
     #msc-yout iframe{
         width: 90%;
     }
+    #msc-yout .container{
+        gap: 20px;
+    }
     #msc-yout{
         background-image: url(../../images/background-mobile-youtube.png);
         margin: 50px auto;
@@ -824,6 +829,9 @@ footer{
     }
     #central .container button{
         width: 150px;
+    }
+    .vdw{
+        display: flex;
     }
 
 }
@@ -926,7 +934,9 @@ footer{
     #agenda .card p:nth-child(1) {
         font-size: 45px;
     }
-    
+    #msc-yout .container{
+        gap: 20px;
+    }
     #agenda .card p:last-child {
         font-size: 17px;
     }
@@ -1044,6 +1054,9 @@ footer{
     #central .container button{
         width: 150px;
     }
+    .vdw{
+        display: flex;
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
     .background-image {
@@ -1089,6 +1102,9 @@ footer{
     #numeros .container {
         grid-template-columns: 1fr;
         gap: 30px;
+    }
+    #msc-yout .container{
+        gap: 20px;
     }
     #numeros .container h3{
         font-size: 20px;
@@ -1262,7 +1278,9 @@ footer{
     #central .container button{
         width: 150px;
     }
-    
+    .vdw{
+        display: flex;
+    }
 
 }
 @media (min-width: 992) and (max-width: 1199.98px) {
