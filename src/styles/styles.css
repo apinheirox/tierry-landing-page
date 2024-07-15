@@ -296,7 +296,7 @@ header .main-nav a:hover::after{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 #numeros .container h3{
@@ -305,19 +305,8 @@ header .main-nav a:hover::after{
     align-items: center;
     margin-top: 5px;
 }
-#numeros .container-dir span{
-    font-size: 27px;
-    font-weight: 0;
-}
-#numeros .container-dir {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-    justify-content: center;
-    gap: 10px;
-    margin: 0 auto;
-}
+
+
 #musicas {
     background-image: url(../../images/background-desktop-plataformas.png);
     background-repeat: no-repeat;
@@ -659,6 +648,8 @@ footer{
     #numeros .container {
         grid-template-columns: 1fr;
         gap: 30px;
+        width: 300px;
+        margin: 0 auto;
     }
     #numeros .container h3{
         font-size: 20px;
@@ -873,6 +864,8 @@ footer{
     #numeros .container {
         grid-template-columns: 1fr;
         gap: 30px;
+        width: 300px;
+        margin: 0 auto;
     }
     #numeros .container h3{
         font-size: 20px;
@@ -1103,6 +1096,8 @@ footer{
     #numeros .container {
         grid-template-columns: 1fr;
         gap: 30px;
+        width: 300px;
+        margin: 0 auto;
     }
     #msc-yout .container{
         gap: 20px;
