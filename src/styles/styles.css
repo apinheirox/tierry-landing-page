@@ -126,7 +126,17 @@ header .main-nav a:hover::after{
     align-items: flex-end;
     justify-content: center;
 }
-
+.background-img{
+    height: 1000px; 
+    width: 100%;
+    background-image: url(../../images/background-desktop-agenda.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
 .image-container {
     display: flex;
     flex-wrap: wrap;
@@ -179,7 +189,16 @@ header .main-nav a:hover::after{
     padding: 20px;
     margin: 100px auto;
 }
-
+#agenda-2 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
 #agenda .container {
     display: flex;
     flex-direction: row;
@@ -190,14 +209,14 @@ header .main-nav a:hover::after{
     margin: 0 auto;
 }
 
-.agenda-h1 {
+#agenda .agenda-h1 {
     width: 100%;
     max-width: 400px;
     margin: 0 auto 20px auto;
     text-align: center;
 }
 
-#agenda h1 {
+#agenda h1, #agenda-2 h1 {
     color: white;
     font-size: 80px;
     text-align: center;
@@ -233,7 +252,7 @@ header .main-nav a:hover::after{
     left: 7%;
 }
 
-#agenda .card {
+#agenda .card, #agenda-2 .card {
     width: 150px;
     height: 150px;
     background-color: white;
@@ -244,24 +263,26 @@ header .main-nav a:hover::after{
     flex-direction: column;
     
 }
-
-#agenda .card-agenda {
+#agenda-2 .card{
+    gap: 20px;
+}
+#agenda .card-agenda, #agenda-2 .card-agenda {
     display: flex;
     align-items: center;
     gap: 12px;
     width: 100%;
 }
 
-#agenda .card p:nth-child(1) {
+#agenda .card p:nth-child(1), #agenda-2 .card p:nth-child(1) {
     font-size: 65px;
 }
 
-#agenda .card p:last-child {
+#agenda .card p:last-child, #agenda-2 .card p:last-child {
     font-size: 20px;
     color: #585858;
 }
 
-#agenda .info {
+#agenda .info, #agenda-2 .info {
     display: flex;
     gap: 7px;
     flex-direction: column;
@@ -272,13 +293,23 @@ header .main-nav a:hover::after{
     color: #121516;
     font-size: 26px;
 }
-
+#agenda-2 .info h3{
+    color: white;
+    font-size: 26px;
+}
+#agenda-2 .info p{
+    color: #ffffff;
+    font-size: 14px;
+    max-width: 200px;
+}
 #agenda .info p {
     color: #121516;
     font-size: 14px;
     max-width: 200px;
 }
-
+#agenda-2 .info a{
+    color: white;
+}
 #agenda .info a {
     color: #121516;
 }
@@ -603,6 +634,13 @@ footer{
         background-size: cover;
         background-position: center;
     }
+    .background-img{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../../images/background-mobile-agenda.png);
+        background-size: cover;
+        background-position: center;
+    }
     .image-container {
         flex-direction: row;
         flex-wrap: wrap;
@@ -654,6 +692,13 @@ footer{
     #numeros .container h3{
         font-size: 20px;
     }
+    #agenda-2 .container{
+        width: 350px;
+        margin: 50px auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     #agenda .container {
         width: 500px;
         margin: 50px auto;
@@ -661,7 +706,7 @@ footer{
         align-items: center;
         justify-content: center;
     }
-    #agenda .card-agenda{
+    #agenda .card-agenda, #agenda-2 .card-agenda{
         margin: 0 auto;
         width: 100%;
         display: flex;
@@ -671,12 +716,12 @@ footer{
         background-color: white;
         color: #111;
     }
-    #agenda .agenda-h1 {
+    #agenda .agenda-h1, #agenda-2 .agenda-h1 {
         font-size: 40px;
         width: 70%;
         margin: 0 auto;
     }
-    #agenda h1{
+    #agenda h1, #agenda-2 h1{
         font-size: 50px;
         text-align: left;
     }
@@ -686,25 +731,25 @@ footer{
         margin: 0 auto;
         left: 0%;
     }
-    #agenda .card{
+    #agenda .card, #agenda-2 .card{
         width: 150px;
         height: 120px;
     }
     #agenda .info a{
         color: white;
     }
-    #agenda .info p {
+    #agenda .info p, #agenda-2 .info p {
         font-size: 10px;
         color: white;
     }
-    #agenda .card p:nth-child(1) {
+    #agenda .card p:nth-child(1), #agenda-2 .card p:nth-child(1){
         font-size: 45px;
     }
     
-    #agenda .card p:last-child {
+    #agenda .card p:last-child, #agenda-2 .card p:last-child {
         font-size: 17px;
     }
-    #agenda .info h3 {
+    #agenda .info h3, #agenda-2 .info h3 {
         font-size: 18px;
         color: white;
     }
@@ -795,7 +840,7 @@ footer{
         text-align: center;
     }
     #nmr-contato{
-        margin: 100px auto;
+        margin: 120px auto;
     }
     #nmr-contato .container{
         grid-template-columns: 1fr;
@@ -831,6 +876,13 @@ footer{
     .background-image {
         height: 100vh;
         background-image: url(../../images/background-mobile.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .background-img{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../../images/background-mobile-agenda.png);
         background-size: cover;
         background-position: center;
     }
@@ -884,6 +936,13 @@ footer{
         width: 300px;
         font-size: 13px;
     }
+    #agenda-2 .container{
+        width: 350px;
+        margin: 50px auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     #agenda .container {
         width: 500px;
         margin: 50px auto;
@@ -891,50 +950,50 @@ footer{
         align-items: center;
         justify-content: center;
     }
-    #agenda .card-agenda{
+    #agenda .card-agenda, #agenda-2 .card-agenda{
         margin: 0 auto;
         width: 100%;
         display: flex;
-    }
-    #agenda .agenda-h1 {
-        font-size: 40px;
-        width: 70%;
-        margin: 0 auto;
-    }
-    #agenda h1{
-        font-size: 50px;
-        text-align: left;
+        
     }
     #agenda .back-card button{
         background-color: white;
         color: #111;
     }
+    #agenda .agenda-h1, #agenda-2 .agenda-h1 {
+        font-size: 40px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    #agenda h1, #agenda-2 h1{
+        font-size: 50px;
+        text-align: left;
+    }
+
     #agenda .back-card {
         background: none;
         margin: 0 auto;
         left: 0%;
     }
-    #agenda .card{
+    #agenda .card, #agenda-2 .card{
         width: 150px;
         height: 120px;
     }
     #agenda .info a{
         color: white;
     }
-    #agenda .info p {
+    #agenda .info p, #agenda-2 .info p {
         font-size: 10px;
         color: white;
     }
-    #agenda .card p:nth-child(1) {
+    #agenda .card p:nth-child(1), #agenda-2 .card p:nth-child(1){
         font-size: 45px;
     }
-    #msc-yout .container{
-        gap: 20px;
-    }
-    #agenda .card p:last-child {
+    
+    #agenda .card p:last-child, #agenda-2 .card p:last-child {
         font-size: 17px;
     }
-    #agenda .info h3 {
+    #agenda .info h3, #agenda-2 .info h3 {
         font-size: 18px;
         color: white;
     }
@@ -1055,7 +1114,14 @@ footer{
 @media (min-width: 768px) and (max-width: 991.98px) {
     .background-image {
         height: 100vh;
-        background-image: url(../../images/background-tablet.png);
+        background-image: url(../../images/background-desktop.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .background-img{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../../images/background-mobile-agenda.png);
         background-size: cover;
         background-position: center;
     }
@@ -1111,56 +1177,64 @@ footer{
     header nav, .icon-links {
         display: none;
     }
-    #agenda .container {
-        width: 500px;
-        margin: 0 auto;
+    #agenda-2 .container{
+        width: 350px;
+        margin: 50px auto;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    #agenda .card-agenda{
+    #agenda .container {
+        width: 500px;
+        margin: 50px auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #agenda .card-agenda, #agenda-2 .card-agenda{
         margin: 0 auto;
         width: 100%;
         display: flex;
+        
     }
-    #agenda .agenda-h1 {
+    #agenda .back-card button{
+        background-color: white;
+        color: #111;
+    }
+    #agenda .agenda-h1, #agenda-2 .agenda-h1 {
         font-size: 40px;
         width: 70%;
         margin: 0 auto;
     }
-    #agenda h1{
+    #agenda h1, #agenda-2 h1{
         font-size: 50px;
         text-align: left;
     }
-    #agenda .back-card button{
-        color: #111;
-        background-color: white;
-    }
-    #agenda .card p:nth-child(1) {
-        font-size: 45px;
-    }
-    
-    #agenda .card p:last-child {
-        font-size: 17px;
-    }
+
     #agenda .back-card {
         background: none;
         margin: 0 auto;
         left: 0%;
     }
-    #agenda .card{
+    #agenda .card, #agenda-2 .card{
         width: 150px;
         height: 120px;
     }
     #agenda .info a{
         color: white;
     }
-    #agenda .info p {
+    #agenda .info p, #agenda-2 .info p {
         font-size: 10px;
         color: white;
     }
-
-    #agenda .info h3 {
+    #agenda .card p:nth-child(1), #agenda-2 .card p:nth-child(1){
+        font-size: 45px;
+    }
+    
+    #agenda .card p:last-child, #agenda-2 .card p:last-child {
+        font-size: 17px;
+    }
+    #agenda .info h3, #agenda-2 .info h3 {
         font-size: 18px;
         color: white;
     }
@@ -1216,7 +1290,7 @@ footer{
     #contato{
         height: 1100px;
         background-image: url(../../images/background-mobile-redes.png);
-        margin: -80px auto;
+        margin: -95px auto;
     }
     #contato .container{
         width: 250px;
@@ -1247,7 +1321,7 @@ footer{
         text-align: center;
     }
     #nmr-contato{
-        margin: 100px auto;
+        margin: 150px auto;
     }
     #nmr-contato .container{
         grid-template-columns: 1fr;
@@ -1257,7 +1331,7 @@ footer{
     }
     #central{
         background-image: url(../../images/background-mobile-central.png);
-        margin: -50px auto;
+        margin: 100px auto;
         height: 1000px;
     }
     #central .container{
