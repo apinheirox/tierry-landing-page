@@ -548,11 +548,11 @@ footer{
 #central .container{
     width: 1000px;
     align-items: left;
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     margin: 0 auto;
     margin-bottom: 100px;
-    flex-direction: column;
+    flex-direction: row;
 }
 #central .container h1{
     color: white;
@@ -580,6 +580,43 @@ footer{
 #central .container button:hover{
     background-color: #CED0D0;
     color: black;
+}
+#central .form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    height: 470px;
+}
+#central .container h2 {
+    margin-bottom: 20px;
+}
+#central .form-group {
+    margin-bottom: 15px;
+}
+#central .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+#central .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+#central .form-group button {
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+#central .form-group button:hover {
+    background-color: #080808;
+    color: white;
 }
 .loader {
     display: flex;
@@ -856,6 +893,7 @@ footer{
     #central .container{
         margin: 0 auto;
         width: 250px;
+        flex-direction: column;
     }
     #central .container h1 {
         font-size: 50px;
@@ -1096,6 +1134,7 @@ footer{
     #central .container{
         margin: 0 auto;
         width: 250px;
+        flex-direction: column;
     }
     #central .container h1 {
         font-size: 50px;
@@ -1337,6 +1376,7 @@ footer{
     #central .container{
         margin: 0 auto;
         width: 250px;
+        flex-direction: column;
     }
     #central .container h1 {
         font-size: 50px;
