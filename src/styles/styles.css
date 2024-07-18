@@ -116,7 +116,7 @@ header .main-nav a:hover::after{
 }
 /* Home */
 .background-image {
-    height: 1000px; 
+    height: 90dvh; 
     width: 100%;
     background-image: url(../../images/background-desktop.png);
     background-size: cover; 
