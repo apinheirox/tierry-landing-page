@@ -127,9 +127,9 @@ header .main-nav a:hover::after{
     justify-content: center;
 }
 .background-img{
-    height: 1000px; 
+    height: 100dvh; 
     width: 100%;
-    background-image: url(../../images/background-desktop-agenda.png);
+    background-image: url(../../images/background-desktop.png);
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
