@@ -15,7 +15,6 @@ body{
     font-family: 'Aron', sans-serif;
     overflow-x: hidden;
 }
-
 header .container{
     max-width: 1200px;
     width: 100%;
@@ -50,7 +49,6 @@ header .main-nav a::after{
     left: 0;
     transition: 0.5s ease-in-out;
 }
-
 header .main-nav a:hover::after{
     width: 100%;
 }
@@ -64,21 +62,18 @@ header .main-nav a:hover::after{
 }
 .icon-links a:hover{
     transform: translateY(-4px);
-    
 }
 .icon-links a{
     width: 100%;
     height: 100%;
     transition: 0.4s ease-in-out;
 }
-/* Menu toggle button */
+
 .menu-toggle {
     display: none;
     font-size: 40px;
     cursor: pointer;
 }
-
-/* Sidebar styles */
 .sidebar {
     height: 100%;
     width: 0;
@@ -92,7 +87,6 @@ header .main-nav a:hover::after{
     padding-top: 60px;
     list-style: none;
 }
-
 .sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -102,11 +96,9 @@ header .main-nav a:hover::after{
     display: block;
     transition: 0.3s ease-in-out;
 }
-
 .sidebar a:hover {
     color: #CED0D0;
 }
-
 .sidebar .closebtn {
     position: absolute;
     top: 0;
@@ -114,9 +106,8 @@ header .main-nav a:hover::after{
     font-size: 46px;
     margin-left: 50px;
 }
-/* Home */
 .background-image {
-    height: 90dvh; 
+    height: 90dvh;
     width: 100%;
     background-image: url(../../images/background-desktop.webp);
     background-size: cover; 
@@ -145,14 +136,12 @@ header .main-nav a:hover::after{
     align-items: center;
     justify-content: center;
 }
-
 .image-container a {
     max-width: 100%;
     height: auto;
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }
-
 .image-container a:hover {
     transform: translateY(-4px);
 }
@@ -182,7 +171,6 @@ header .main-nav a:hover::after{
     color: white;
     font-size: 17px;
 }
-/* Agenda */
 #agenda {
     display: flex;
     justify-content: center;
@@ -208,21 +196,18 @@ header .main-nav a:hover::after{
     max-width: 1200px;
     margin: 0 auto;
 }
-
 #agenda .agenda-h1 {
     width: 100%;
     max-width: 400px;
     margin: 0 auto 20px auto;
     text-align: center;
 }
-
 #agenda h1, #agenda-2 h1 {
     color: white;
     font-size: 80px;
     text-align: center;
     text-align: left;
 }
-
 #agenda .back-card button{
     width: 200px;
     height: 50px;
@@ -251,7 +236,6 @@ header .main-nav a:hover::after{
     position: relative;
     left: 7%;
 }
-
 #agenda .card, #agenda-2 .card {
     width: 150px;
     height: 150px;
@@ -261,7 +245,6 @@ header .main-nav a:hover::after{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
 }
 #agenda-2 .card{
     gap: 20px;
@@ -272,23 +255,19 @@ header .main-nav a:hover::after{
     gap: 12px;
     width: 100%;
 }
-
 #agenda .card p:nth-child(1), #agenda-2 .card p:nth-child(1) {
     font-size: 65px;
 }
-
 #agenda .card p:last-child, #agenda-2 .card p:last-child {
     font-size: 20px;
     color: #585858;
 }
-
 #agenda .info, #agenda-2 .info {
     display: flex;
     gap: 7px;
     flex-direction: column;
     align-items: flex-start;
 }
-
 #agenda .info h3 {
     color: #121516;
     font-size: 26px;
@@ -337,8 +316,6 @@ header .main-nav a:hover::after{
     align-items: center;
     margin-top: 5px;
 }
-
-
 #musicas {
     background-image: url(../../images/background-desktop-plataformas.webp);
     background-repeat: no-repeat;
@@ -353,20 +330,17 @@ header .main-nav a:hover::after{
     padding: 20px;
     margin: 0px auto;
 }
-
 #musicas h1 {
     color: white;
     font-size: 80px;
-    text-align: left; /* Centraliza o título */
+    text-align: left;
 }
-
 #musicas .msc-h1 {
     width: 100%;
     max-width: 400px;
     margin: 0 auto 20px auto;
     text-align: left;
 }
-
 #musicas .container {
     display: flex;
     flex-direction: row;
@@ -376,7 +350,6 @@ header .main-nav a:hover::after{
     max-width: 1200px;
     margin: 0 auto;
 }
-
 #musicas .container-dir {
     display: flex;
     flex-direction: column;
@@ -385,14 +358,12 @@ header .main-nav a:hover::after{
     margin-top: 20px;
     margin: 0 auto;
 }
-
 #musicas .container-dir .plataformas {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
     margin: 15px auto;
     align-items: center;
-    
 }
 #musicas .plataformas a{
     transition: 0.4s ease-in-out;
@@ -422,7 +393,6 @@ header .main-nav a:hover::after{
     justify-content: center;
     flex-direction: column;
 }
-
 #msc-yout h3{
     color: white;
     font-size: 40px;
@@ -506,7 +476,6 @@ footer .right-image img{
 .footer-content .center-image {
     order: 1;
 }
-
 .footer-content p {
     flex-grow: 1;
     text-align: center;
@@ -515,7 +484,6 @@ footer .right-image img{
     color: white;
     font-size: 10px;
 }
-
 .footer-content .right-image {
     order: 3;
 }
@@ -621,7 +589,6 @@ footer .right-image img{
     cursor: pointer;
     border-radius: 5px;
     width: 100%;
-    
 }
 #central .form-group button:hover {
     background-color: #c0c0c0;
@@ -630,7 +597,7 @@ footer .right-image img{
 .loader {
     display: flex;
     align-items: center;
-    justify-content: center; /* Centraliza o loader horizontalmente */
+    justify-content: center;
     position: fixed;
     left: 0;
     top: 0;
@@ -639,8 +606,6 @@ footer .right-image img{
     background-color: black;
     z-index: 9999;
 }
-
-/* Estilo para as barras do loader */
 .bar {
     display: inline-block;
     width: 3px;
@@ -649,13 +614,11 @@ footer .right-image img{
     border-radius: 10px;
     animation: scale-up4 1s linear infinite;
 }
-
 .bar:nth-child(2) {
     height: 35px;
     margin: 0 5px;
     animation-delay: .25s;
 }
-
 .bar:nth-child(3) {
     animation-delay: .5s;
 }
@@ -667,7 +630,6 @@ footer .right-image img{
         background-color: #246199;
         transform: scaleY(1.5);
     }
-
     40% {
         transform: scaleY(1);
     }
@@ -756,7 +718,6 @@ footer .right-image img{
         margin: 0 auto;
         width: 100%;
         display: flex;
-        
     }
     #agenda .back-card button{
         background-color: white;
@@ -791,7 +752,6 @@ footer .right-image img{
     #agenda .card p:nth-child(1), #agenda-2 .card p:nth-child(1){
         font-size: 45px;
     }
-    
     #agenda .card p:last-child, #agenda-2 .card p:last-child {
         font-size: 17px;
     }
@@ -876,12 +836,10 @@ footer .right-image img{
         flex-direction: column;
         margin: 50px auto;
     }
-
     .footer-content p {
         margin-bottom: 30px;
         order: unset;
     }
-
     .footer-content p {
         text-align: center;
     }
@@ -968,7 +926,6 @@ footer .right-image img{
     header .container{
         width: 90%;
     }
-
     .logo{
         display: flex;
         width: 90px;
@@ -1017,7 +974,6 @@ footer .right-image img{
         margin: 0 auto;
         width: 100%;
         display: flex;
-        
     }
     #agenda .back-card button{
         background-color: white;
@@ -1032,7 +988,6 @@ footer .right-image img{
         font-size: 50px;
         text-align: left;
     }
-
     #agenda .back-card {
         background: none;
         margin: 0 auto;
@@ -1052,7 +1007,6 @@ footer .right-image img{
     #agenda .card p:nth-child(1), #agenda-2 .card p:nth-child(1){
         font-size: 45px;
     }
-    
     #agenda .card p:last-child, #agenda-2 .card p:last-child {
         font-size: 17px;
     }
@@ -1132,13 +1086,11 @@ footer .right-image img{
     .footer-content {
         flex-direction: column;
     }
-
     .footer-content img,
     .footer-content p {
         margin-bottom: 10px;
         order: unset;
     }
-
     .footer-content p {
         text-align: center;
     }
@@ -1275,7 +1227,6 @@ footer .right-image img{
         margin: 0 auto;
         width: 100%;
         display: flex;
-        
     }
     #agenda .back-card button{
         background-color: white;
@@ -1290,7 +1241,6 @@ footer .right-image img{
         font-size: 50px;
         text-align: left;
     }
-
     #agenda .back-card {
         background: none;
         margin: 0 auto;
@@ -1310,7 +1260,6 @@ footer .right-image img{
     #agenda .card p:nth-child(1), #agenda-2 .card p:nth-child(1){
         font-size: 45px;
     }
-    
     #agenda .card p:last-child, #agenda-2 .card p:last-child {
         font-size: 17px;
     }
@@ -1399,7 +1348,6 @@ footer .right-image img{
         margin-bottom: 10px;
         order: unset;
     }
-
     .footer-content p {
         text-align: center;
     }
