@@ -80,3 +80,29 @@ self.addEventListener('fetch', event => {
       })
   );
 });
+
+const purify = require('purify-css');
+const fs = require('fs');
+const path = require('path');
+
+// Caminho para seus arquivos HTML e JS
+const content = [path.join(__dirname, './index.html'), path.join(__dirname, 'src/**/*.js')];
+
+// Caminho para o seu CSS
+const css = [path.join(__dirname, 'src/styles/styles.css')];
+
+// Diretório onde você deseja salvar o CSS purificado
+const output = path.join(__dirname, 'dist/purified.css');
+
+// Executa o PurifyCSS
+const result = purify(content, css, { 
+  // Opções adicionais
+  minify: true,
+  // Lista de classes que você deseja manter, se houver
+  safelist: [],
+});
+
+// Salva o CSS purificado em um arquivo
+fs.writeFileSync(output, result);
+
+console.log('PurifyCSS concluído. CSS purificado salvo em dist/purified.css');
