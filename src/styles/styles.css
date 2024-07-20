@@ -493,13 +493,16 @@ footer{
     margin: 0 auto;
     padding: 0 20px;
 }
-
+footer .center-image{
+    max-width: 80px;
+}
 .footer-content img {
-    max-width: 90px;
     height: auto;
     margin: 0 auto;
 }
-
+footer .right-image img{
+    max-width: 120px;
+}
 .footer-content .center-image {
     order: 1;
 }
