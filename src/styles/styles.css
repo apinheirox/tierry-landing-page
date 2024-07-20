@@ -611,8 +611,8 @@ footer{
     box-sizing: border-box;
 }
 #central .form-group button {
-    background-color: #111;
-    color: white;
+    background-color: #CED0D0;
+    color: #111;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
@@ -621,8 +621,8 @@ footer{
     
 }
 #central .form-group button:hover {
-    background-color: #080808;
-    color: white;
+    background-color: #c0c0c0;
+    color: #111;
 }
 .loader {
     display: flex;
@@ -894,10 +894,11 @@ footer{
     #central{
         background-image: url(../../images/background-mobile-central.png);
         margin: -50px auto;
-        height: 1000px;
+        height: 1200px;
+        align-items: center;
     }
     #central .container{
-        margin: 70px auto;
+        margin: 100px auto;
         width: 300px;
         flex-direction: column;
     }
